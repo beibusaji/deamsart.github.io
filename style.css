@@ -1,8 +1,8 @@
 /* General Styles */
 body {
-  background-color: #1A1A1D;  /* Dark background */
+  background-color: #2C3E50;  /* Dark slate blue */
   font-family: Arial, sans-serif;
-  color: #fff;  /* White text color */
+  color: #ecf0f1;  /* Light grey text for better readability */
   margin: 0;
   padding: 0;
   line-height: 1.6;
@@ -10,13 +10,13 @@ body {
 
 /* Header Section */
 header {
-  background-color: #6A1E55;  /* Dark pink */
+  background-color: #34495E;  /* Dark greyish-blue */
   text-align: center;
   padding: 20px 0;
 }
 
 h1 {
-  color: #A64D79;  /* Light pink */
+  color: #ECF0F1;  /* Light grey */
   font-size: 2.5rem;
   margin: 0;
 }
@@ -28,19 +28,19 @@ h1 {
 }
 
 h2 {
-  color: #A64D79;  /* Light pink */
+  color: #ECF0F1;  /* Light grey */
   font-size: 2rem;
 }
 
 p {
-  color: #fff;  /* White text for readability */
+  color: #BDC3C7;  /* Soft light grey for paragraphs */
   font-size: 1.2rem;
 }
 
 /* Footer Section */
 footer {
-  background-color: #3B1C32;  /* Deep maroon */
-  color: #fff;
+  background-color: #34495E;  /* Dark greyish-blue */
+  color: #ecf0f1;  /* Light grey text */
   text-align: center;
   padding: 10px;
   position: fixed;
