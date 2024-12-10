@@ -1,76 +1,57 @@
 /* General Styles */
 body {
+  background-color: #1A1A1D;
   font-family: Arial, sans-serif;
-  line-height: 1.6;
+  color: #fff;
   margin: 0;
   padding: 0;
-  color: #fff;
-}
-
-/* Header */
-header {
-  background: #6A1E55;
-  color: #A64D79;
-  padding: 20px;
-  text-align: center;
-}
-
-header h1 {
-  margin: 0;
-  font-size: 2.5em;
-}
-
-/* Navigation */
-nav {
-  background: #A64D79;
-  color: #fff;
-  padding: 10px;
-  text-align: center;
-}
-
-nav a {
-  color: #fff;
-  text-decoration: none;
-  margin: 0 15px;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-
-/* Sections */
-section {
-  padding: 20px;
-  margin: 20px;
-  border-bottom: 1px solid #ccc;
+  line-height: 1.6;
 }
 
 h2 {
-  color: #0078D7;
+  color: #A64D79; 
+  text-align: center;
+  margin-top: 20px;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
+#about {
+  padding: 20px;
+  text-align: center;
 }
 
-ul li {
-  margin-bottom: 10px;
+#about img {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
 }
 
-ul li a {
+/* Links */
+a {
+  color: #6A1E55;  /* Darker pink */
   text-decoration: none;
-  color: #1A1A1D;
 }
-
-ul li a:hover {
-  text-decoration: underline;
+a:hover {
+  color: #A64D79; 
 }
-
-/* Footer */
 footer {
-  background: #1A1A1D;
+  background-color: #3B1C32; 
   color: #fff;
   text-align: center;
   padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+button {
+  background-color: #6A1E55;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #A64D79;  /* Hover effect: Light pink */
 }
